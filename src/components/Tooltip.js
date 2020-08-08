@@ -6,9 +6,9 @@ class Tooltip extends Component {
     return (
       <div className="tooltip-container">
         <div className="button">Hover Here</div>
-        <div className="tooltip-message-container message-container-position-bottom ">
+        <div className="tooltip-message-container message-container-position-top ">
           Hovered
-          <div className="arrow upper-arrow"></div>
+          <div className="arrow down-arrow"></div>
         </div>
       </div>
     );

@@ -44,6 +44,10 @@
   bottom: 114px;
 }
 
+.message-container-position-top {
+  top: 114px;
+}
+
 .arrow {
   position: absolute;
   width: 0px;
@@ -54,6 +58,14 @@
   top: -12px;
   right: 20px;
   border-bottom: 20px solid #1f0e0ecf;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.down-arrow {
+  top: 34px;
+  left: 37px;
+  border-top: 20px solid #1f0e0ecf;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 }
