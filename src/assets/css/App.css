@@ -2,4 +2,46 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background: linear-gradient(to right, #7cffd7a3, #7bdec7bf, #d7f16c85);
+  height: 100vh;
+}
+
+h1 {
+  color: red;
+  background-color: blue;
+  padding: 2%;
+}
+
+.heading {
+  font-size: 3rem;
+  padding: 2%;
+  font-family: sans-serif;
+  color: navy;
+  font-weight: 500;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-heading {
+  font-size: 1.5rem;
+  margin-right: 25px;
+  color: darkslategray;
+}
+
+select {
+  font-size: 1.5rem;
+  background: bisque;
+  color: darkslategray;
+  border: 1px solid blue;
+  width: 129px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+select:focus {
+  outline: none;
 }
