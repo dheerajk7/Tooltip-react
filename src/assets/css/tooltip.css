@@ -7,4 +7,53 @@
   border: 2px solid red;
   width: 100%;
   margin-top: 2%;
+  position: relative;
+}
+
+.button {
+  font-size: 2rem;
+  padding: 17px;
+  background: #f12727b5;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #3d3d71c2;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #a03737c7;
+}
+
+.tooltip-message-container {
+  height: 10%;
+  border-radius: 15px;
+  width: 150px;
+  background: #1f0e0ef0;
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+}
+
+.message-container-position-bottom {
+  bottom: 114px;
+}
+
+.arrow {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+
+.upper-arrow {
+  top: -12px;
+  right: 20px;
+  border-bottom: 20px solid #1f0e0ecf;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
 }

@@ -3,10 +3,13 @@ import '../assets/css/tooltip.css';
 
 class Tooltip extends Component {
   render() {
-    const { isHovered } = this.props;
     return (
       <div className="tooltip-container">
-        {isHovered ? <h2>ToolTip Hovered</h2> : <h2>Tool tip</h2>}
+        <div className="button">Hover Here</div>
+        <div className="tooltip-message-container message-container-position-bottom ">
+          Hovered
+          <div className="arrow upper-arrow"></div>
+        </div>
       </div>
     );
   }
