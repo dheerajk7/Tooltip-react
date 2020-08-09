@@ -1,3 +1,4 @@
+/* styles for main app container */
 .App {
   display: flex;
   align-items: center;
@@ -6,12 +7,7 @@
   height: 100vh;
 }
 
-h1 {
-  color: red;
-  background-color: blue;
-  padding: 2%;
-}
-
+/* styles for tooltip demo heading */
 .heading {
   font-size: 3rem;
   padding: 2%;
@@ -20,18 +16,21 @@ h1 {
   font-weight: 500;
 }
 
+/* styles for dropdown container */
 .dropdown-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* style for dropdown heading  */
 .dropdown-heading {
   font-size: 1.5rem;
   margin-right: 25px;
   color: darkslategray;
 }
 
+/* style for dropdown select tag */
 select {
   font-size: 1.5rem;
   background: bisque;
@@ -42,6 +41,7 @@ select {
   border-radius: 10px;
 }
 
+/* styles when select tag is hovered */
 select:focus {
   outline: none;
 }

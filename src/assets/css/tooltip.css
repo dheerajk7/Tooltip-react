@@ -1,14 +1,16 @@
+/* style for tooltip container which contains button and hovered message */
 .tooltip-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 60%;
+  height: 35%;
   width: 100%;
   margin-top: 2%;
   position: relative;
 }
 
+/* styles for center button */
 .button {
   font-size: 2rem;
   position: relative;
@@ -21,10 +23,12 @@
   cursor: pointer;
 }
 
+/* color variaion on hovering center button */
 .button:hover {
   background: #a03737c7;
 }
 
+/* style for hovered message container */
 .tooltip-message-container {
   height: 50px;
   border-radius: 15px;
@@ -41,60 +45,9 @@
   cursor: default;
 }
 
-.message-container-position-bottom {
-  top: 120%;
-  left: 12%;
-}
-
-.message-container-position-top {
-  bottom: 120%;
-  left: 12%;
-}
-
-.message-container-position-left {
-  right: 107%;
-  top: 16%;
-}
-
-.message-container-position-right {
-  left: 106%;
-  top: 16%;
-}
-
+/* basic property of arrow  */
 .arrow {
   position: absolute;
   width: 0px;
   height: 0px;
-}
-
-.upper-arrow {
-  top: -12px;
-  right: 20px;
-  border-bottom: 20px solid #1f0e0ecf;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-}
-
-.down-arrow {
-  top: 42px;
-  left: 37px;
-  border-top: 20px solid #1f0e0ecf;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-}
-
-.right-arrow {
-  top: 5px;
-  right: -11px;
-  border-left: 20px solid #1f0e0ecf;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-}
-
-.left-arrow {
-  top: 5px;
-  left: -11px;
-  border-right: 20px solid #1f0e0ecf;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
 }
