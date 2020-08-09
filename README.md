@@ -6,7 +6,7 @@ Tooltip is a message which appears when a cursor is positioned over an icon, ima
 
 ![gif image](./static/images/preview.gif)
 
-## Visit app at http://dheerajk7.github.io/Tooltip-react
+## Visit app at http://dheerajk7.github.io/tooltip-react
 
 ### Techstack :- HTML, CSS, JS, React
 
