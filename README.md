@@ -6,13 +6,13 @@ Tooltip is a message which appears when a cursor is positioned over an icon, ima
 
 ![gif image](./static/images/preview.gif)
 
-## Visit app at http://dheerajk7.github.io/tooltip-react
+## Visit app at http://dheerajk7.github.io/Tooltip-react
 
 ### Techstack :- HTML, CSS, JS, React
 
 # Instructions to install
 
-1. Clone this repository from https://github.com/dheerajk7/tooltip-react-test-cn.git
+1. Clone this repository from https://github.com/dheerajk7/Tooltip-react.git
 2. Install NPM if you have not installed yet.
 3. Go to project directory and run these commands
 
